@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 144, 139, 0.4), rgba(40, 15, 229, 0.4)), url(images/yyy.jpg);
+    background-size: cover;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    position: relative;
+    font-size: 34px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding-right: 60px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #07eec4;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+a.active {
+    color: #07eec4;
+    border-bottom: 3px solid #07eec4;
+}
+
+.btn i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.content {
+    margin-top: 10%;
+    color: white;
+    max-width: 700px;
+}
+
+.content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.content form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.content form input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.content form .btn {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+.image-container {
+    width: 100%;
+    /* Adjust as needed */
+    text-align: right;
+    /*Align image to the right*/
+    margin-left: 600px;
+    margin-top: -300px;
+}
+
+.image-container img {
+    max-width: 100%;
+    /* Ensure image is responsive */
+    height: auto;
+    border-radius: 8px;
+    /* Optional: Rounded corners */
+}
